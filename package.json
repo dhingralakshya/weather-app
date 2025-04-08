@@ -21,8 +21,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://dhingralakshya.github.io/weather-app",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -47,4 +50,5 @@
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17"
   }
+  
 }
